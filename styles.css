@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 320px; /* Fixed width accounting for 300px image + 10px padding on each side */
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    background: linear-gradient(to bottom, #fff8dc, #fffaf0); 
+    border-radius: 8px;
+    overflow: hidden; /*so that the child elements do not overflow the rounded corners */
+}
+h3 {
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 10px; /* Adds space below the title */
+    color: #2a2a2a; /* Dark text color for readability */
+    font-size: 20px; /* Larger font size to make the title stand out */
+    font-weight: bold; /* Makes the text bold */
+    border-radius: 4px; /* Rounded corners for the title box */
+    
+}
+
+img {
+    display: block;
+    width: 300px; /* Fixed width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px auto;
+    border: 3px solid #ccc; /* Border around the image */
+}
+
+.info-box {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ccc; /* Border around the text information box */
+  	box-sizing: border-box;
+    margin: 6px auto;
+}
+
+.info {
+    font-style: italic; /* Italic text for interesting facts */
+    text-align: justify; /* Justifies the text within the info section */
+}
+
+.details {
+    list-style-type: none; /* No bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+.details li {
+    padding: 5px 0; /* Padding for each list item */
+   
+}
+
+.description {
+    border-bottom: none; /* No border for the last item */
+    text-align: justify;
+}
+
+.details strong {
+    font-weight: bold; /* Bold for labels */
+}
